@@ -9,7 +9,7 @@ class GuessingTheNumber{
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
         answer = random.nextInt(100)+ 1;
-        System.out.println("Enter the Number Between 1 to 100");
+        System.out.println("Guess the Number Between 1 to 100 ");
         guess = sc.nextInt();
        
         if(guess > answer)
