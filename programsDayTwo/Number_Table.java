@@ -11,7 +11,7 @@ class Number_Table{
         for(int i = 1;i<=10;i++)
         {
              int prod = num * i ;
-            System.out.println(prod);
+            System.out.println(num + " * " + i + " = " + prod);
         }
        
     }
