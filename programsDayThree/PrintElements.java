@@ -10,6 +10,6 @@ class PrintElements{
             numbers[i] = sc.nextInt();
             System.out.print(numbers[i] + " ");
         }
-      
+        
     }
 }
