@@ -19,7 +19,7 @@ class GuessNumberCondition{
         guess = sc.nextInt();
         if(guess == number)
         {
-          System.out.println("Correct Number");
+          System.out.println("You Guess Right Number SO you Win . Congratulations3");
           break;
         }
         else if(guess >number && i != k - 1)
@@ -34,8 +34,7 @@ class GuessNumberCondition{
     if(i == k)
     {
         System.out.println(
-                "You have exhausted"
-                + " K trials.");
+                "You have guess more than three times but you failed so Computer Wins");
  
             System.out.println(
                 "The number was " + number);
