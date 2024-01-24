@@ -8,21 +8,22 @@ class LeapYear{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a year: ");
          year = sc.nextInt();
+         if(year >= 1582)
+         {
+        if((year % 400 == 0 )|| (year % 4 == 0) && (year % 100 != 0))
+        {
+            System.out.println("Its a Leap Year");
+        }
+        else
+        {
+            System.out.println("Its not Leap Year");
+        }
+    }
+    else
+    {
+        System.out.println("Invalid Please Take year bigger than 1582");
+    }
+                 
         
-        if((year < 1582) == (year % 4==0))
-        {
-            System.out.println(year + " is a leap year");
-        }
-        else{
-            System.out.println(year + " is not a leap year");
-        }
-        if((year > 1582) == (year % 100 != 0) || (year % 400 == 0))
-        {
-            System.out.println(year + " is a leap year");
-        }
-        else{
-            System.out.println(year + " is not a leap year");
-            
-        }
     }
 }
