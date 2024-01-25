@@ -22,7 +22,7 @@ class GuessingTheNumber{
         }
         else
         {
-            System.out.println("Correct");
+            System.out.println("Correct ");
         }
         }
     }

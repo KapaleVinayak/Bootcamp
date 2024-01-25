@@ -2,14 +2,14 @@ import java.util.Arrays;
 
 class FrequencyOfNumber{
     public static void main(String[] args) {
-        int[] array = { 2, 3, 5, 4, 3, 1, 3, 2, 1, };
+        int[] array = {12,3,5,12,8,9,4,2,3};
       
         //sorting an array
         Arrays.sort(array);
         
         //declaring the variables
         int i,j;
-        System.out.println("The Elements with their Frequency");
+        System.out.println("The Duplicate Elements in Array are : -");
         
         //loop for logic implementation
         for(i=0; i<array.length; i++){
